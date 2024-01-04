@@ -1,0 +1,391 @@
+
+.head{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    background-color: #65451F;
+}
+.photo img {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid whitesmoke;
+    position: relative;
+}
+.navbar{
+    position: sticky;
+    top: -3.5%;
+}
+.head h2{
+    color: whitesmoke;    
+    justify-content: end;
+    margin: 10px;
+    margin-right: 200px;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.pBody{    
+    width: 100vw;    
+    background: #ffffff url(../img/trees.avif) center center/cover no-repeat;
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.textArea h1{
+    color: #EAC696;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    font-size: 100px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 2px soild black;
+    font-variant: small-caps;
+}
+
+.textArea p{
+    width: 70vw;
+   text-align: center;
+    color: whitesmoke;
+    text-shadow: 3px 2px 2px rgba(0,0,0,0.6);
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 700;   
+}
+.pElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    background-color: #191919;
+    background: #ffffff url(../img/abs.jpg) center center/cover no-repeat;
+     
+}
+
+/* Education Style */
+
+.education,.contacts,.project,.skills,.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;      
+}
+.education h2,.contacts h2,.project h2,.skills h2,.Experience h2{
+    font-family: 'Arial', sans-serif;
+    color: #1C315E;    
+    justify-content: center;
+    margin: 10px;
+    padding-right: 10%;
+    padding-top: 10px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 700;
+    text-decoration: none;
+    font-variant: small-caps;
+    width: 100vw;
+    background-color: whitesmoke;
+    text-align: right;
+}
+.bca,
+.hsc,
+.sslc {
+  background-color: hsla(215, 100%, 97%, 0.192);   
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.education h3,.Experience h3,.skillElement h3  {
+  margin-bottom: 10px;
+  color: #CFE8A9;
+}
+
+.education h4,.Experience h5 {
+  margin: 5px 0;
+  color: #D0D4CA;
+}
+/* Experience style */
+
+.Experience {
+    height:auto;
+    }
+.Experience h3 {
+    width: 70vw;  
+}
+  .Eitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;    
+    margin-top: 10px;
+  }
+  
+  .Elist {
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 700;
+    list-style-type: square;
+    padding: 0;
+    color: #FAF3F0;
+  }
+  
+  .Elist li,.skillElement li {
+    margin-bottom: 10px;
+  }
+  
+  .Elist b {
+    color: #F8CBA6;
+  }
+
+  /* Skills Styling */
+
+  .skills{     
+    height: auto;
+   }
+  .skillElement{
+    width: 90vw;
+    display: grid;   
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 11px;   
+   
+  }
+.web,
+.office,
+.it {
+    width: 26vw;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 700;
+    list-style-type: square;
+    padding: 0;
+    color: #FAF3F0;
+}
+
+.web ul li,
+.office ul li,
+.it ul li {  
+  list-style: none;
+  background-color: hsla(238, 56%, 13%, 0.384);
+  padding: 8px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Project Styling */
+
+.project {
+    background: #ffffff url(../img/abs.jpg) center center/cover no-repeat;
+    color: white;
+    padding: 20px;
+  }
+  
+  .myApp {   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 8px;
+  }
+  
+  .todo,
+  .weather,.math,.quiz,.thagadur
+ {
+    height: 40vh;
+    width: 20vw;
+    align-items: center;
+    border: 2px solid blue;
+    background-color:hsla(215, 100%, 97%, 0.192);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .todo a,
+  .weather a,
+  .math a,
+  .thagadur a,
+  .quiz a {
+    color: #FFA45B;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .role {
+    margin-top: 20px;
+  }
+  
+  .role h5 {
+    color: #61dafb;
+  }
+  
+  .project p {
+    line-height: 1.5;
+  }
+
+ /* Contact Style */
+
+  .contacts {
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid wheat;
+  }
+  
+  .contacts h2 {
+     margin-bottom: 10px;
+  }
+  
+  .contacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts li {
+    margin-bottom: 10px;
+  }
+  
+  .contacts b {
+    color: #64CCC5; 
+  }
+  
+  
+
+@media screen and (max-width:900px) {
+    .head{
+        height: 10vh;
+        align-content: center;
+    }
+    .pBody{
+        background:none;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+       
+    }
+    .textArea {
+        width: 100vw;
+        height: 30vh;
+        justify-content: center;
+        background: #ffffff url(../img/trees.avif) center center/cover no-repeat;
+    }
+    .textArea h1{
+        font-size: 70px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 600;       
+    }
+    
+    .textArea p{
+        width: 90vw;
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 500;
+        align-items: center;                  
+    }
+    .photo img {
+        border: 5px solid whitesmoke;
+        margin-top: 5px;
+        margin-left: 40px;
+        width: 100px;
+        height: 100px;
+    }
+    .head h2{       
+        margin-right: 20px;
+        padding: 0;
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .navbar{       
+        position: sticky;
+        top:-19px;
+    }
+    .pElements{
+        width: 100vw;
+        margin: 0;
+    }
+    .education{
+        width: 100vw;        
+    }
+    .Experience{
+        height: auto;
+    }
+    .education h2,.contacts h2,.project h2,.skills h2,.Experience h2{
+        font-size: 40px;
+        width: 100vw;   
+        padding-right: 10px;
+    }
+   
+    .Eitems, .Experience h3, .Elist  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;    
+        margin-top: 10px;
+      }
+      .skills{     
+        height: auto;
+         }
+      .skillElement{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+              
+      }
+    .web,
+    .office,
+    .it {
+        width: 70vw;
+        margin-top: 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 700;
+        list-style-type: square;
+        padding: 0;
+        color: #FAF3F0;
+    }
+    .myApp {   
+        display: flex;
+       flex-direction: column;
+      }      
+      .todo,
+      .weather,.math,.quiz,.thagadur
+     {
+        height: auto;
+        width: auto;
+        align-items: center;
+        background-color:hsla(180, 53%, 79%, 0.171);
+        padding: 15px;
+        margin: 10px;
+        border-radius: 8px;
+      }
+}

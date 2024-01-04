@@ -1,0 +1,32 @@
+.footer {
+    background-color: #0F0F0F;
+    color: #fff;
+    padding: 20px;
+    height: 30vh;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+   flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .footer-right {
+    flex: 1;
+  }
+  
+  .footer-right p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-right a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
