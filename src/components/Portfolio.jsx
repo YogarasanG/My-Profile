@@ -20,8 +20,9 @@ const LINKS = {
 };
 
 const ROLES = [
-  "Web Developer",
-  "Digital Marketing Strategist",
+    "Digital Marketing Strategist",
+    "Web Developer",
+    "SEO Analyst",
   "WordPress Specialist",
   "Meta Ads Manager",
 ];
