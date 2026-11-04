@@ -56,7 +56,7 @@ const EXPERIENCE = [
     org: "Thagadur Welding & Designing Works",
     role: "Web Developer & Digital Lead",
     points: [
-      "Took the family business online — designed and built its website, set up its social presence and ran Meta ad campaigns that generated real enquiries.",
+      "Took the father's business online — designed and built its website, set up its social presence and ran Meta ad campaigns that generated real enquiries.",
       "The project where web development and marketing came together into the single service I now offer clients.",
     ],
   },
