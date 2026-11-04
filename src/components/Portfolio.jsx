@@ -673,7 +673,7 @@ function About() {
           <SplitText text="A builder and a marketer, in one person." className="title" />
           <p className="body rv" style={{ "--d": "0.1s" }}>
             I started out in IT as a system administrator, taught myself React and WordPress on the
-            side, and found my way into digital marketing while taking my family's business online.
+            side, and found my way into digital marketing while taking my father's business online.
             That mix stuck.
           </p>
           <p className="body rv" style={{ "--d": "0.2s" }}>
